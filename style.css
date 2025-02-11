@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: rgb(252, 199, 222);
+    font-family: "Caveat", serif;
+}
+
+.container {
+    text-align: center;
+}
+
+/*GIFS*/
+.gif-container{
+    height: 15rem;
+    width: 15rem;
+    align-content: center;
+    margin-left: 28% ;
+}
+
+.gif-image1 {
+    max-width: 120%;
+    height: auto;
+    margin-left: -40px;
+}
+
+.gif-image2 {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.gif-image3 {
+    max-width: 120%;
+    height: auto;
+    display: none;
+}
+
+/*QUESTION*/
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*MESSAGE*/
+.msg {
+    display: none;
+}
+
+/*BUTTONS*/
+.btn {
+    color: white;
+    font-size: 2rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: "Caveat", serif;
+    border: none;
+    cursor: pointer;
+}
+.ybtn {
+    background-color: rgb(117, 173, 114);
+    margin-right: 25%;
+}
+
+.nbtn {
+    background-color: rgb(255, 77, 100);
+    
+}

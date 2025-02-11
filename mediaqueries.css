@@ -1,0 +1,26 @@
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+        background: rgb(252, 199, 222);
+        font-family: "Caveat", serif;
+        word-wrap: break-word;
+    }
+    .gif-container{
+        margin-left: 5%;
+    }
+    .gif-image3{
+        margin-left: 6%;
+    }
+    .msg{
+        font-size: 1.2rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+
+}
